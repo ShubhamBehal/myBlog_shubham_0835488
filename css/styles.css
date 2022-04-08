@@ -1,0 +1,247 @@
+
+.header-block {
+	float: left;
+	width: 100%;
+	height: 110px;
+	background-color: #826F66;
+	color: white;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header-menu {
+	float: left;
+	margin: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-desc {
+	display: inline-block;
+	margin: 0 0 0 15em;
+}
+
+.main-block {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.heading-text {
+	float: left;
+	width: 100%;
+	color: #826F66;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+	padding-top: 15px;
+}
+
+.shubham-image {
+	height: 600px;
+	width: 800px;
+}
+
+.sub-topics-block {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.learn-more-text {
+	color: #6a6967;
+	font-size: 15px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.sub-menu li {
+	color: #826F66;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 13px;
+	padding-bottom: 3px;
+}
+
+.navbar {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.0em;
+}
+
+.subnav {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.subnavbtn {
+	background-color: #3A3845;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+	float: left;
+	width: 24%;
+}
+
+.subnavbtn a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.about-block {
+	padding-left: 10px;
+	font-size: 11px;
+}
+
+.myexperiences_table {
+	border: 0.1em solid #3A3845;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+th,
+td {
+	border: 0.1em solid #3A3845;
+	padding: 1em;
+	font-size: 1.1em;
+}
+
+.h2-string-center {
+	text-align: center;
+}
+
+article {
+	background-color: #373a73;
+	float: left;
+	margin: 0.5%;
+	padding: 0.5%;
+	text-align: center;
+	width: 31%;
+	border-radius: 20px;
+}
+
+article img {
+	width: 30%;
+	height: 30%;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article p {
+	color: #3A3845;
+	margin-top: 2%;
+	padding: 1%;
+	text-align: left;
+}
+
+article ul {
+	text-align: left;
+}
+
+.footerdiv {
+	background-color: #3A3845;
+	float: left;
+	width: 100%;
+	height: 100px;
+}
+
+footer {
+	font-family: "Times New Roman";
+	font-size: 0.7em;
+	text-align: center;
+	margin-top: 3em;
+	color: #ffffff;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.mobile-view {
+	display: inline;
+}
+
+.desktop-view {
+	display: none;
+}
+
+.subnavbtn a {
+	font-size: 14px;
+}
+
+.subnavbtn {
+	width: 24%;
+}
+
+@media only screen and (min-width: 685px) {
+	.mobile-view {
+		display: none;
+	}
+
+	.desktop-view {
+		display: inline;
+	}
+	#header-desc {
+		margin: 75px 50px 0px 50px;
+	}
+	.heading-text {
+		font-size: 35px;
+	}
+	.about-block {
+		padding-left: 10px;
+		float: left;
+		width: 43%;
+		font-size: 18px;
+	}
+	.learn-more-text {
+		color: #6a6967;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.sub-topics-block {
+		float: left;
+		margin-left: 50px;
+		width: 24%;
+	}
+	.learn-more-text {
+		color: #6a6967;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.sub-menu li {
+		color: #826F66;
+		text-decoration: underline;
+		font-weight: bold;
+		font-size: 18px;
+		padding-bottom: 3px;
+	}
+	article img {
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (min-width: 860px) {
+	.subnavbtn a {
+		font-size: 20px;
+	}
+	.subnavbtn {
+		width: 31%;
+	}
+}
